@@ -1,2 +1,0 @@
-J'ai trouvé deux problèmes : 
-J'observe qu'il n'y a pas de différence entre les panneaux de signalisation dans les pays, et la seul qui pose un problème est 'Stop' dans le maroc 'قف'. et le deuxième problème est la difiiculté de trouver une dataset pour les images de 'قف'. 
