@@ -1,0 +1,86 @@
+.h2_title{
+    margin-left: 45%;
+}
+
+.bg{
+    background-image: url("https://img.freepik.com/free-photo/no-entry-sign-city_23-2149338560.jpg?w=740&t=st=1666893495~exp=1666894095~hmac=bd110cd878376e3e8452976444066ff40ca3c271bdfb314f440ad0e91c11bb42");
+
+    /* Full height */
+    height: 100%;
+    margin-top: -2.4%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-left: 47%;
+    margin-top: 1%;
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btn-predict{
+    background: #169c52;
+    color: #ffffff;
+    margin-left: 47%;
+    margin-top: 3%;
+}
+#btn-predict:hover{
+    background: #e24545;
+    color: #fff;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #e24545;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    border-radius: 10%;
+    margin-left: 50%;
+    margin-top: 1%;
+}
+
+.upload-label:hover{
+    background: #169c52;
+    color: #ffffff;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #ce250e; /*  Red */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+#result{
+    color: #f3f3f3;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
